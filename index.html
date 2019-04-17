@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <div id="page-wrapper">
+        <header id="header">
+
+            <nav id="nav-bar">
+                <img src="logo.JPG" alt="Good Coffee Logo" id="header-img">
+                <ul class="links">
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#product">Product</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <main>
+            <section id="home">
+                <article>
+                    <h1>Welcome to Good Coffee</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sequi sit doloremque aut ipsa
+                        consequatur</p>
+                </article>
+            </section>
+            <section id="about">
+                <article>
+                    <h1>About us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sequi sit doloremque aut ipsa
+                        consequatur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quaerat! Odio non
+                        ullam molestiae nobis.
+                    </p>
+                </article>
+            </section>
+            <section id="product">
+                <article>
+                    <h1>Our Product</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sequi sit doloremque aut ipsa
+                        consequatur</p>
+                </article>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/BOdLmxy06H0"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+            <section id="contact">
+                <article id="forms">
+                    <h1 class="contacts">Contact us</h1>
+
+                    <form action="#" id="contact">
+                        <label for="name" id="name-label" class="question">Name: </label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" class="answer" required>
+                        <label for="email" id="email-label" class="question">E-mail: </label>
+                        <input type="email" id="email" name="email" placeholder="Enter your e-mail address"
+                            class="answer" required>
+                        <label for="suggestions" class="question">Your message: </label>
+                        <textarea name="message" id="messages" class="answer align-top textarea" cols="30" rows="10"
+                            placeholder="Enter your message here"></textarea>
+                        <input type="submit" id="submit" value="Submit">
+                    </form>
+
+                    <form action="https://www.freecodecamp.com/email-submit" id="form">
+                        <label for="email">Subscribe to our newsletter: </label>
+                        <input type="email" id="email" name="email" placeholder="Enter your e-mail address">
+                        <input type="submit" id="submit" value="Submit">
+
+                    </form>
+                </article>
+            </section>
+        </main>
+        <footer>Natasa K 2019</footer>
+    </div>
+</body>
+
+</html>
